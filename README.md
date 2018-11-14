@@ -1,1 +1,1 @@
-# LA6
+Authors: Austin W, Chris R
