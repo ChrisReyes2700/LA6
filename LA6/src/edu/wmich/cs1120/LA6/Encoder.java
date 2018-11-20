@@ -21,7 +21,7 @@ public class Encoder implements IEncoder{
 			scan = new Scanner(file);
 			String contents = scan.next();
 			while (scan.hasNextLine()) {
-				contents = contents.concat(scan.nextLine());
+				contents = contents.concat(scan.nextLine()+"\n");
 			}
 			
 			//creates the random access file
