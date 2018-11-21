@@ -5,6 +5,13 @@ import java.io.RandomAccessFile;
 
 public class Decoder implements IDecoder {
 
+	/**
+	 * Use randomaccess object to read an encoded input text and convert the byte values
+	 * to a character and print to console.  Jumps through the bytecode and reads integer values
+	 * to determine how far to jump next. Prints values to console directly from file
+	 * 
+	 * @param filePath input text file location
+	 */
 	@Override
 	public void decode(String filePath) {
 		try {
