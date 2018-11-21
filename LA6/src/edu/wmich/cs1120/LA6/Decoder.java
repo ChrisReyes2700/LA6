@@ -24,7 +24,7 @@ public class Decoder implements IDecoder {
 				}
 			raf.close();
 		} catch (IOException e) {
-			e.printStackTrace();
+			System.out.println(e);
 		}
 
 	}
