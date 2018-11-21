@@ -9,6 +9,15 @@ import java.util.Scanner;
 
 public class Encoder implements IEncoder{
 
+	/**
+	 * Uses a scanner to read a file and place the file contents into a string then creates a random access file. 
+	 * The random access file loop through every char but the last, for each loop, the char at that index i is written followed by
+	 * a random int between 1 to 20, and a length of random bytes equal to the random int picked. The last char is only followed by a -1 int.
+	 * Closes the random access file then the scanner. Method is in a try catch block to catch any FileNotFoundException or IOException.
+	 * 
+	 * @param inputFileName name of the input text file
+	 * @param outputFilePath name of the encoded output binary file 
+	 */
 	@Override
 	public void encode(String inputFileName, String outputFilePath) {
 		//initializes file, random, and scan
