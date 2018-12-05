@@ -1,1 +1,1 @@
-Authors: Austin W, Chris R
+Authors: Austin Wojciechowski, Chris Reyes
